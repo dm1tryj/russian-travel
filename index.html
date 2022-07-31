@@ -6,8 +6,8 @@
     <link rel="stylesheet" type="text/css" href="./styles/index.css">
     <link rel="icon" href="/img/favicon.png">
   </head>
-  <body>
-<div class="page">
+  <body class="page">
+<div class="page__container">
     <header class="header">
       <img src="./images/__logo.png" alt="Лого сайта" class="header__logo">
     <ul class="header__lang-links">
@@ -30,7 +30,7 @@
       </section>
 
       <section class="intro">
-        <h3 class="intro__title">Чего мы там не видели?</h3>
+        <h2 class="intro__title">Чего мы там не видели?</h2>
         <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
         <ul class="intro__list">
           <li class="intro__list-item">
@@ -52,24 +52,24 @@
       </section>
 
       <section class="photo-grid">
-        <img src="./images/__item.png" class="photo-grid__item" alt="вид на природу из вагона поезда">
-        <img src="./images/__item (1).png" class="photo-grid__item" alt="заснеженные горы в облаках">
-        <img src="./images/__item (2).png" class="photo-grid__item" alt="лиса стоит на стоге сена">
-        <img src="./images/__item (3).png" class="photo-grid__item" alt="туманные леса на склоне">
-        <img src="./images/__item (4).png" class="photo-grid__item" alt="машина проезжает по льду">
-        <img src="./images/__item (5).png" class="photo-grid__item" alt="пляж">
-        <img src="./images/__item (6).png" class="photo-grid__item" alt="вид на горный хребет">
-        <img src="./images/__item (7).png" class="photo-grid__item" alt="волнорезы">
-        <img src="./images/__item (8).png" class="photo-grid__item" alt="горы">
-        <img src="./images/__item (9).png" class="photo-grid__item" alt="полянка из мха и гора">
-        <img src="./images/__item (10).png" class="photo-grid__item" alt="скалистый обрыв">
-        <img src="./images/__item (11).png" class="photo-grid__item" alt="горы и туман">
+        <img src="./images/__item-train.png" class="photo-grid__item" alt="вид на природу из вагона поезда">
+        <img src="./images/__item-snow-mountain.png" class="photo-grid__item" alt="заснеженные горы в облаках">
+        <img src="./images/__item-fox.png" class="photo-grid__item" alt="лиса стоит на стоге сена">
+        <img src="./images/__item-trees.png" class="photo-grid__item" alt="туманные леса на склоне">
+        <img src="./images/__item-car-on-ice.png" class="photo-grid__item" alt="машина проезжает по льду">
+        <img src="./images/__item-beach.png" class="photo-grid__item" alt="пляж">
+        <img src="./images/__item-mountain-range.png" class="photo-grid__item" alt="вид на горный хребет">
+        <img src="./images/__item-breakwaters.png" class="photo-grid__item" alt="волнорезы">
+        <img src="./images/__item-weird-mountain.png" class="photo-grid__item" alt="горы">
+        <img src="./images/__item-wide-mountain.png" class="photo-grid__item" alt="полянка из мха и гора">
+        <img src="./images/__item-cliff.png" class="photo-grid__item" alt="скалистый обрыв">
+        <img src="./images/__item-misty-mountains.png" class="photo-grid__item" alt="горы и туман">
       </section>
 
       <section class="places">
         <div class="place">
           <h3 class="place__title">Куршская коса</h3>
-          <img src="./images/__image.png" alt="берег кушерской косы" class="place__image">
+          <img src="./images/__image-kosa.png" alt="берег кушерской косы" class="place__image">
           <div class="place__website">
             <p class="place__url-heading">URL</p>
             <a href="http://park-kosa.ru" target="_blank" class="place__link">park-kosa.ru</a>
@@ -81,7 +81,7 @@
         </div>
         <div class="place">
           <h3 class="place__title">Кольский</h3>
-          <img src="./images/__image (1).png" alt="полуостров Кольский" class="place__image">
+          <img src="./images/__image-solsky.png" alt="полуостров Кольский" class="place__image">
           <div class="place__website">
             <p class="place__url-heading">URL</p>
             <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="_blank" class="place__link">National Geographic</a>
@@ -95,7 +95,7 @@
         </div>
         <div class="place">
           <h3 class="place__title">Алтай</h3>
-          <img src="./images/__image (2).png" alt="леса Алтая" class="place__image">
+          <img src="./images/__image-altay.png" alt="леса Алтая" class="place__image">
           <div class="place__website">
             <p class="place__url-heading">URL</p>
             <a href="https://www.facebook.com/vera.bashmakova" target="_blank" class="place__link">Facebook</a>
@@ -108,7 +108,7 @@
         </div>
         <div class="place">
           <h3 class="place__title">Зимний Байкал</h3>
-          <img src="./images/__image (3).png" alt="покрывшийся льдом Байкал" class="place__image">
+          <img src="./images/__image-baykal.png" alt="покрывшийся льдом Байкал" class="place__image">
           <div class="place__website">
             <p class="place__url-heading">URL</p>
             <a href="https://vk.com/baikalmile" target="_blank" class="place__link">https://vk.com/baikalmile</a>
@@ -120,7 +120,7 @@
         </div>
         <div class="place">
           <h3 class="place__title">Карелия</h3>
-          <img src="./images/__image (4).png" alt="виды Карелии" class="place__image">
+          <img src="./images/__image-karelya.png" alt="виды Карелии" class="place__image">
           <div class="place__website">
             <p class="place__url-heading">URL</p>
             <a href="http://vodlozero.ru/" target="_blank" class="place__link">http://vodlozero.ru/</a>

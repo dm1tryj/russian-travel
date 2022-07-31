@@ -2,6 +2,7 @@
 
 @import '../fonts/fonts.css';
 @import '../blocks/page/page.css';
+@import '../blocks/page/__container/page__container.css';
 
 @import '../blocks/header/header.css';
 @import '../blocks/header/__logo/header__logo.css';
