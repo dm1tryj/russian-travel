@@ -1,4 +1,19 @@
 .header__lang-links {
+    margin: 0;
+    padding: 0;
     list-style-type: none;
     display: flex;
+    flex-direction: row;
+    padding-top: 15px;
+    margin-top: 46px;
 }
+@media screen and (max-width: 1279px){
+    .header__lang-links {
+
+    } 
+ }
+  @media screen and (max-width: 767px){
+     .header__lang-links {
+
+     } 
+  }

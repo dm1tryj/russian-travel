@@ -2,6 +2,7 @@
     max-width: 984px;
     margin: 0 auto;
     background-color: #2A2C2F;
+    margin-top: 92px;
 }
 @media screen and (max-width: 1279px) {
     .intro {
