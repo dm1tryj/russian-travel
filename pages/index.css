@@ -1,6 +1,6 @@
 @import '../vendor/normalize.css';
 
-@import '../fonts/fonts.css';
+@import '../vendor/fonts/fonts.css';
 @import '../blocks/page/page.css';
 @import '../blocks/page/__container/page__container.css';
 
@@ -8,7 +8,7 @@
 @import '../blocks/header/__logo/header__logo.css';
 @import '../blocks/header/__lang-link/header__lang-link.css';
 @import '../blocks/header/__lang-links/header__lang-links.css';
-@import '../blocks/header/__lang-link_active/header__lang-link_active.css';
+@import '../blocks/header/__lang-link/_active/header__lang-link_active.css';
 
 @import '../blocks/lead/lead.css';
 @import '../blocks/lead/__image/lead__image.css';
@@ -21,9 +21,10 @@
 @import '../blocks/intro/__title/intro__title.css';
 @import '../blocks/intro/__list/intro__list.css';
 @import '../blocks/intro/__list-text/intro__list-text.css';
+@import '../blocks/intro/__numbers/intro__numbers.css';
 
 @import '../blocks/photo-grid/photo-grid.css';
-@import '../blocks/photo-grid/photo-grid__item/photo-grid__item.css';
+@import '../blocks/photo-grid/__item/photo-grid__item.css';
 
 @import '../blocks/places/places.css';
 @import '../blocks/place/place.css';
